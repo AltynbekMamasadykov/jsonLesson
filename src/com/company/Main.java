@@ -2,13 +2,11 @@ package com.company;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
-
 
 
 public class Main {
@@ -29,6 +27,8 @@ public class Main {
 
         String json = GSON.toJson(cars);
         System.out.println(json);
+//        write(json);
+        System.out.println(readFile());
     }
 
     private static void write(String object) {

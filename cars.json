@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Honda Accord",
+    "price": 6000,
+    "type": "SEDAN"
+  },
+  {
+    "name": "Honda Civic",
+    "price": 4000,
+    "type": "HATCHBACK"
+  },
+  {
+    "name": "Honda TruckWagon",
+    "price": 12000,
+    "type": "TRUCK"
+  }
+]
